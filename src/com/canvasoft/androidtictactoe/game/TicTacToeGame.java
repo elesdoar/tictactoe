@@ -16,6 +16,12 @@ public class TicTacToeGame {
 	public static final char OPEN_SPOT = ' ';
 	public static final String TAG = "game.TicTacToeGame";
 
+	// The computer's difficulty levels
+	public enum DifficultyLevel {Easy, Harder, Expert};
+
+	// Current difficulty level
+	private DifficultyLevel mDifficultyLevel = DifficultyLevel.Expert;
+
 	private char mBoard[] = { '1', '2', '3', '4', '5', '6', '7', '8', '9' };
 	public static final int BOARD_SIZE = 9;
 

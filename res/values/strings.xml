@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidTicTacToe</string>
+    <string name="action_new_game">Jugar de nuevo!!!</string>
+    
+	<string name="first_human">Tu primero.</string>
+	<string name="turn_human">Tu turno.</string>
+	<string name="turn_computer">Turno de Android.</string>
+	<string name="result_tie">Empate.</string>
+	<string name="result_human_wins">Ganaste!</string>
+	<string name="result_computer_wins">Perdiste!</string>
+
+</resources>

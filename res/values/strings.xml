@@ -3,6 +3,8 @@
 
     <string name="app_name">AndroidTicTacToe</string>
     <string name="action_new_game">Jugar de nuevo!!!</string>
+    <string name="ai_difficulty">Dificultad</string>
+    <string name="exit">Salir</string>
     
 	<string name="first_human">Tu primero.</string>
 	<string name="turn_human">Tu turno.</string>
@@ -10,5 +12,15 @@
 	<string name="result_tie">Empate.</string>
 	<string name="result_human_wins">Ganaste!</string>
 	<string name="result_computer_wins">Perdiste!</string>
+	<string name="difficulty_choose">Dificultad preferida:</string>
+	<string name="difficulty_easy">Fácil</string>
+	<string name="difficulty_harder">Medio</string>
+	<string name="difficulty_expert">Dificil</string>
+	<string name="quit_question">Desea Salir?</string>
+	<string name="yes">Si</string>
+	<string name="no">No</string>
+	
+	<string name="description">Aplicación desarrollada para los retos de la semana. Aplicaciones móviles UNAL.</string>
+	<string name="about">Acerca de TicTacToe.</string>
 
 </resources>

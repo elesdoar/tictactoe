@@ -1,79 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-	android:orientation="vertical"
-	android:layout_width="fill_parent"
-	android:layout_height="fill_parent"
-	android:gravity="center_horizontal" >
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
 
-    <TableLayout android:id="@+id/play_grid"
-		android:layout_height="wrap_content"
-		android:layout_width="fill_parent"
-		android:layout_marginTop="5dp">
-		
-		<TableRow android:gravity="center_horizontal">
-			<Button android:id="@+id/one"
-				android:layout_height="100dp"
-				android:textSize="70dp"
-				android:layout_width="100dp"
-				android:text="1" />
-		
-			<Button android:id="@+id/two"
-				android:layout_height="100dp"
-				android:textSize="70dp"
-				android:layout_width="100dp"
-				android:text="2" />
-		
-			<Button android:id="@+id/three"
-				android:layout_height="100dp"
-				android:textSize="70dp"
-				android:layout_width="100dp"
-				android:text="3" />
-		</TableRow>
-		<TableRow android:gravity="center_horizontal">
-			<Button android:id="@+id/four"
-				android:layout_height="100dp"
-				android:textSize="70dp"
-				android:layout_width="100dp"
-				android:text="4" />
-		
-			<Button android:id="@+id/five"
-				android:layout_height="100dp"
-				android:textSize="70dp"
-				android:layout_width="100dp"
-				android:text="5" />
-		
-			<Button android:id="@+id/six"
-				android:layout_height="100dp"
-				android:textSize="70dp"
-				android:layout_width="100dp"
-				android:text="6" />
-		</TableRow>
-		<TableRow android:gravity="center_horizontal">
-			<Button android:id="@+id/seven"
-				android:layout_height="100dp"
-				android:textSize="70dp"
-				android:layout_width="100dp"
-				android:text="7" />
-		
-			<Button android:id="@+id/eight"
-				android:layout_height="100dp"
-				android:textSize="70dp"
-				android:layout_width="100dp"
-				android:text="8" />
-		
-			<Button android:id="@+id/nine"
-				android:layout_height="100dp"
-				android:textSize="70dp"
-				android:layout_width="100dp"
-				android:text="9" />
-		</TableRow>
-	</TableLayout>
-		
-	<TextView android:id="@+id/information"
-		android:layout_height="wrap_content"
-		android:gravity="center_horizontal"
-		android:textSize="20dp"
-		android:layout_width="fill_parent"
-		android:text="info"
-		android:layout_marginTop="20dp" />
+    <com.canvasoft.androidtictactoe.views.BoardView
+        android:id="@+id/board"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:id="@+id/information"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:text="info"
+        android:textSize="20sp" />
+
 </LinearLayout>

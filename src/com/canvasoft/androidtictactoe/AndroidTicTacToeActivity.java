@@ -60,7 +60,7 @@ public class AndroidTicTacToeActivity extends Activity {
 							Log.v(TAG, "Android Jugando...");
 							int move = mGame.getComputerMove();
 							setMove(TicTacToeGame.COMPUTER_PLAYER, move);
-							mBoardView.invalidate(); 
+							mBoardView.invalidate();  
 							mComputerMediaPlayer.start();    // Play the sound effect
 							int winner = mGame.checkForWinner();
 							if (winner == 0)

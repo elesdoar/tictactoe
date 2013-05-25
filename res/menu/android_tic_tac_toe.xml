@@ -3,9 +3,9 @@
         android:id="@+id/action_new_game"
         android:title="@string/action_new_game"
         android:icon="@drawable/action_new_game"/>
-	<item android:id="@+id/ai_difficulty"
-		android:title="@string/ai_difficulty"
-		android:icon="@drawable/difficulty_level" />
+	<item android:id="@+id/settings"
+		android:title="@string/preferences"
+		android:icon="@drawable/settings" />
 	<item android:id="@+id/about_menu"
 		android:title="@string/about"
 		android:icon="@drawable/about" />

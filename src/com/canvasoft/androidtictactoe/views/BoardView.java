@@ -20,6 +20,7 @@ public class BoardView extends View {
 	private Bitmap mHumanBitmap;
 	private Bitmap mComputerBitmap;
 	private Paint mPaint;
+	private int color = Color.LTGRAY;
 
 	private TicTacToeGame mGame;
 
@@ -58,7 +59,7 @@ public class BoardView extends View {
 
 		// Make thick, light gray lines
 
-		mPaint.setColor(Color.LTGRAY);
+		mPaint.setColor(color);
 		mPaint.setStrokeWidth(GRID_WIDTH);
 
 		// Draw the two vertical board lines
@@ -108,5 +109,14 @@ public class BoardView extends View {
 
 	public int getBoardCellHeight() {
 		return getHeight() / 3;
+	}
+
+	public int getColor() {
+		return color;
+	}
+
+	public void setColor(int color) {
+		this.color = color;
+		invalidate();
 	}
 }

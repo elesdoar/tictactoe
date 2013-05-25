@@ -22,6 +22,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- Allow the Settings activity to be launched -->
+		<activity android:name=".Settings" android:label="Settings"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="sound"
+        android:summary="@string/sound_setting"
+        android:title="@string/sound" />
+
+    <EditTextPreference
+        android:defaultValue="@string/result_human_wins"
+        android:key="victory_message"
+        android:summary=""
+        android:title="@string/victory_msg" />
+
+    <ListPreference
+        android:defaultValue="@string/difficulty_expert"
+        android:entries="@array/list_difficulty_level"
+        android:entryValues="@array/list_difficulty_level"
+        android:key="difficulty_level"
+        android:summary=""
+        android:title="@string/difficulty_choose" />
+
+    <net.margaritov.preference.colorpicker.ColorPickerPreference
+        android:defaultValue="0xffcccccc"
+        android:key="board_color"
+        android:summary=""
+        android:title="@string/board_color" 
+        alphaSlider="true">
+    </net.margaritov.preference.colorpicker.ColorPickerPreference>
+
+</PreferenceScreen>

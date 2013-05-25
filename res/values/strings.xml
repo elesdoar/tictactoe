@@ -4,6 +4,12 @@
     <string name="app_name">AndroidTicTacToe</string>
     <string name="action_new_game">Jugar de nuevo!!!</string>
     <string name="ai_difficulty">Dificultad</string>
+    <string name="preferences">Preferencias</string>
+    <string name="board_color">Color del Tablero</string>
+    <string name="sound">Sonido</string>
+    <string name="sound_setting">Encender o apagar el sonido</string>
+    <string name="victory_msg">Mensaje de victoria</string>
+    <string name="color_summary">Seleccione el color del tablero</string>
     <string name="reset_score">Reiniciar puntaje</string>
     <string name="exit">Salir</string>
     
